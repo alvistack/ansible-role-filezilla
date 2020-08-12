@@ -22,4 +22,4 @@
       command: filezilla --version
       register: result
       changed_when: false
-      failed_when: "'FileZilla' not in result.stdout"
+      failed_when: "'Unable to initialize GTK+' not in result.stderr"
