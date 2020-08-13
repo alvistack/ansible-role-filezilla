@@ -14,5 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_rpm_repository:
+  - name: "https://extras.getpagespeed.com/release-el8-latest.rpm"
+    state: "latest"
+
 _yum:
-  - { state: "latest", name: "firefox" }
+  - { state: "latest", name: "filezilla" }
