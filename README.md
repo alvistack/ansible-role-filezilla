@@ -1,6 +1,6 @@
 # Ansible Role for FileZilla
 
-[![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-filezilla.svg)](https://travis-ci.com/alvistack/ansible-role-filezilla)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-filezilla/master)](https://gitlab.com/alvistack/ansible-role-filezilla/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/filezilla)
