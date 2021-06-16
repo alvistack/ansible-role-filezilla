@@ -4,13 +4,11 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/filezilla)
-
 Ansible Role for FileZilla Installation.
 
 ## Requirements
 
-This role require Ansible 4.0 or higher.
-
+This role require Ansible community package 4.1 or higher.
 This role was designed for:
 
   - Ubuntu 18.04, 20.04, 20.10, 21.04
@@ -31,10 +29,8 @@ This role was designed for:
 ## Example Playbook
 
 [molecule/default/converge.yml](molecule/default/converge.yml)
-
 This role could simply deploy to `localhost` as below:
-
-    molecule converge -s default
+molecule converge -s default
 
 ## License
 
