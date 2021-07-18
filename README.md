@@ -1,9 +1,13 @@
 # Ansible Role for FileZilla
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-filezilla/master)](https://gitlab.com/alvistack/ansible-role-filezilla/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/filezilla)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-filezilla/master)](https://gitlab.com/alvistack/ansible-role-filezilla/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/filezilla)
 
 Ansible Role for FileZilla Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
