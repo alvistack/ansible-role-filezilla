@@ -19,7 +19,7 @@
   become: true
   tasks:
     - name: filezilla --version
-      command: filezilla --version
+      ansible.builtin.command: filezilla --version
       register: result
       changed_when: false
       failed_when: "'unable to initialize gtk' not in (result.stderr | lower)"
