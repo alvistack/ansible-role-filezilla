@@ -18,12 +18,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: ansible --version
-      ansible.builtin.command: ansible --version
+    - name: filezilla --version
+      ansible.builtin.command: filezilla --version
       register: result
-      changed_when: result is not succeeded
-
-    - name: ansible-lint --version
-      ansible.builtin.command: ansible-lint --version
-      register: result
-      changed_when: result is not succeeded
+      changed_when: false
+      failed_when: "'unable to initialize gtk' not in (result.stderr | lower)"
