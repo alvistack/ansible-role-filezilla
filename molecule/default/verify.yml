@@ -19,9 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: filezilla --version
+    - name: flatpak info org.filezillaproject.Filezilla
       ansible.builtin.command:
-        cmd: filezilla --version
+        cmd: flatpak info org.filezillaproject.Filezilla
       register: result
-      changed_when: false
-      failed_when: "'unable to initialize gtk' not in (result.stderr | lower)"
+      changed_when: result is not succeeded
