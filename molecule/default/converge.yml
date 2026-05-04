@@ -24,4 +24,4 @@
 
     - name: include role
       ansible.builtin.include_role:
-        name: alvistack.filezilla
+        name: alvistack.flatpak_filezilla
