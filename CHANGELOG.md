@@ -1,4 +1,4 @@
-# Ansible Role for FileZilla
+# Ansible Role for FileZilla with Flatpak
 
 ## 13.6.0 - TBC
 

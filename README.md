@@ -1,13 +1,13 @@
-# Ansible Role for FileZilla
+# Ansible Role for FileZilla with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-filezilla/master)](https://gitlab.com/alvistack/ansible-role-filezilla/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-filezilla.svg)](https://github.com/alvistack/ansible-role-filezilla/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/filezilla)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_filezilla/master)](https://gitlab.com/alvistack/ansible-role-flatpak_filezilla/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_filezilla.svg)](https://github.com/alvistack/ansible-role-flatpak_filezilla/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_filezilla.svg)](https://github.com/alvistack/ansible-role-flatpak_filezilla/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_filezilla-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_filezilla)
 
-Ansible Role for FileZilla Installation.
+Ansible Role for FileZilla with Flatpak.
 
 ## Requirements
 
